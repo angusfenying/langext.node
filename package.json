@@ -1,0 +1,26 @@
+{
+  "name": "langext.node",
+  "version": "1.0.0",
+  "description": "A language extension package for Node.js.",
+  "main": "./dist/langext.node.js",
+  "scripts": {
+    "test": "node ./dist/sample.js",
+    "build": "tsc -p ./tsconfig.json",
+    "typings": "typings install"
+  },
+  "homepage": "https://github.com/angusfenying/langext.node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:fenying/langext.node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angusfenying/langext.node/issues"
+  },
+  "keywords": [
+    "javascript",
+    "language",
+    "extension"
+  ],
+  "author": "Fenying",
+  "license": "LGPL-3.0"
+}
