@@ -11,7 +11,7 @@
   "homepage": "https://github.com/angusfenying/langext.node#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:angusfenying/langext.node.git"
+    "url": "git+https://github.com/angusfenying/langext.node.git"
   },
   "bugs": {
     "url": "https://github.com/angusfenying/langext.node/issues"
@@ -20,6 +20,9 @@
     "javascript",
     "language",
     "extension"
+  ],
+  "maintainers": [
+    "Fenying <i.am.x.fenying@gmail.com>"
   ],
   "author": "Fenying",
   "license": "LGPL-3.0"
