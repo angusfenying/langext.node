@@ -8,13 +8,13 @@
     "build": "tsc -p ./tsconfig.json",
     "typings": "typings install"
   },
-  "homepage": "https://github.com/angusfenying/langext.node#readme",
+  "homepage": "https://github.com/fenying/langext.node#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angusfenying/langext.node.git"
+    "url": "git+https://github.com/fenying/langext.node.git"
   },
   "bugs": {
-    "url": "https://github.com/angusfenying/langext.node/issues"
+    "url": "https://github.com/fenying/langext.node/issues"
   },
   "keywords": [
     "javascript",
