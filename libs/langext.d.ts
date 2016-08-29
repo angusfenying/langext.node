@@ -9,4 +9,14 @@ interface Buffer {
      * Read a buffer from this buffer.
      */
     readBuffer(pos: number, length: number): Buffer;
+
+}
+
+interface Console {
+
+    /**
+     * Read a line from console
+     */
+    readLine(callback: (chunk: string) => void): void;
+
 }

@@ -11,4 +11,3 @@ if (typeof(Buffer) !== "undefined") {
         return this.slice(pos, pos + length);
     };
 }
-

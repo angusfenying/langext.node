@@ -1,10 +1,10 @@
 {
   "name": "langext.node",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A language extension package for Node.js.",
   "main": "./dist/langext.node.js",
   "scripts": {
-    "test": "node ./dist/sample.js",
+    "test": "echo hello | node ./dist/sample.js",
     "build": "tsc -p ./tsconfig.json",
     "typings": "typings install"
   },
@@ -17,6 +17,7 @@
     "url": "https://github.com/fenying/langext.node/issues"
   },
   "keywords": [
+    "node",
     "javascript",
     "language",
     "extension"

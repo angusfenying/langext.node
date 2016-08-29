@@ -9,3 +9,9 @@ console.log(buf.readBuffer(7, 4));
 buf.writeBuffer(new Buffer("word"), 7);
 
 console.log(buf.readBuffer(7, 4));
+
+console.readLine(function(c: string) {
+
+    console.log("Input: ", JSON.stringify(c));
+
+});

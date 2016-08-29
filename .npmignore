@@ -1,5 +1,3 @@
-/libs/
-/*.ts
 /.git/
 /.gitignore
 /tslint.json

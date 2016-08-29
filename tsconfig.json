@@ -3,6 +3,8 @@
         "removeComments": true,
         "module": "commonjs",
         "target": "ES5",
+        "sourceMap": true,
+        "sourceRoot": ".",
         "outDir": "./dist"
     }
 }

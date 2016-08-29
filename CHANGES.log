@@ -1,5 +1,12 @@
 # Changes Logs of langext.node
 
+## 2016-08-29
+
+-   v1.1.0
+
+    -   Added a new method `readLine` for console.
+    -   Added sourcemap files for this project.
+
 ## 2016-08-12
 
 -   v1.0.2
