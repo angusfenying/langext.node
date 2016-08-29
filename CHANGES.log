@@ -7,6 +7,11 @@
     -   Added a new method `readLine` for console.
     -   Added sourcemap files for this project.
 
+-   v1.2.0
+
+    -   Added a new method `question` for console.
+    -   Added a new method `write` for console.
+
 ## 2016-08-12
 
 -   v1.0.2

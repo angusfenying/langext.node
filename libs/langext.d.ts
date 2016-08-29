@@ -19,4 +19,14 @@ interface Console {
      */
     readLine(callback: (chunk: string) => void): void;
 
+    /**
+     * Write text into console without EOL.
+     */
+    write(text: string): void;
+
+    /**
+     * Ask user to type in text, after print text.
+     */
+    question(text: string, callback: (chunk: string) => void): void;
+
 }

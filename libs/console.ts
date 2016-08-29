@@ -10,3 +10,13 @@ console.readLine = function (callback: (chunk: string) => void): void {
     });
 };
 
+console.write = function (text: string): void {
+
+    process.stdout.write(text);
+};
+
+console.question = function (text: string, callback: (chunk: string) => void): void {
+
+    this.write(text);
+    this.readLine(callback);
+};
