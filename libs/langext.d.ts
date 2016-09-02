@@ -30,3 +30,8 @@ interface Console {
     question(text: string, callback: (chunk: string) => void): void;
 
 }
+
+declare module "path" {
+
+    export function simplify(path: string): string | boolean;
+}
