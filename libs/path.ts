@@ -3,7 +3,7 @@
 
 import path = require("path");
 
-path.simplify = function (src: string): string | boolean {
+path.simplify = function (src: string): string {
 
     let lvs: string[] = src.split("/");
     let tvs: string[] = [];
@@ -25,6 +25,6 @@ path.simplify = function (src: string): string | boolean {
         }
     });
 
-    return result ? tvs.join(path.sep) : result;
+    return result ? tvs.join(path.sep) : null;
 
 };

@@ -33,5 +33,5 @@ interface Console {
 
 declare module "path" {
 
-    export function simplify(path: string): string | boolean;
+    export function simplify(path: string): string;
 }

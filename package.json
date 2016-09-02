@@ -1,6 +1,6 @@
 {
   "name": "langext.node",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A language extension package for Node.js.",
   "main": "./dist/langext.node.js",
   "scripts": {
