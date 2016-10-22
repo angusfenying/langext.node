@@ -1,9 +1,6 @@
 /// <reference path="./libs/langext.d.ts" />
 
 import "./langext.node";
-import path = require("path");
-
-console.log(path.simplify("ff/dd/../a/b/c/./f/g/../h"));
 
 let buf: Buffer = new Buffer("sample test");
 

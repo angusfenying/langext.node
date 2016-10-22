@@ -1,5 +1,4 @@
 /// <reference path="./langext.d.ts"/>
-/// <reference path="../typings/index.d.ts"/>
 
 if (typeof(Buffer) !== "undefined") {
 

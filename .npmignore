@@ -4,3 +4,5 @@
 /tsconfig.json
 /.travis.yml
 /typings/
+/.vscode/
+/node_modules/
