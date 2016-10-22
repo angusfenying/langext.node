@@ -5,7 +5,7 @@
   "main": "./langext.node.js",
   "scripts": {
     "test": "echo hello | node ./sample.js",
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc -p ./tsconfig.json --outDir . --rootDir sources",
     "typings": "typings install"
   },
   "homepage": "https://github.com/fenying/langext.node#readme",
