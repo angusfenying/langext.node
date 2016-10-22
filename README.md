@@ -6,8 +6,4 @@ This project is for the utilities extensions for Node.js.
 
 ## Typings
 
-For langext.node.d.ts, use following command
-
-```
-typings install --save --global github:fenying/langext.node.d.ts
-``` 
+The typings is already included in this package.
